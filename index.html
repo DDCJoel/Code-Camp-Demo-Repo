@@ -9,6 +9,19 @@
 	<meta name="author" content="ddcjoela">
 	<!-- Date: 2010-09-11 -->
 	<link href="main.css" rel="stylesheet" />
+	<script type="text/javascript">
+		window.onload = function(){
+			setInterval(function(){
+				if(document.body.style.backgroundColor == 'purple'){
+					document.body.style.backgroundColor = 'pink';
+					document.body.style.color = 'purple';
+				} else {
+					document.body.style.backgroundColor = 'purple';
+					document.body.style.color = 'pink';
+				}
+			}, 500);
+		}
+	</script>
 </head>
 <body>
 	<h1>VT Code Camp Git Demo Site</h1>
